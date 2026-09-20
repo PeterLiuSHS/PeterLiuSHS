@@ -2,7 +2,7 @@
 
 # Kexun Liu
 
-### Backend Software Engineer · Distributed Systems · Financial Technology
+### Backend Engineering · Distributed Systems · Financial Technology
 
 MSc Computer Science @ University College Dublin
 
@@ -14,35 +14,35 @@ Dublin, Ireland
 
 ## About
 
-I'm a backend-focused software engineer with experience building internal financial platforms and data-intensive applications.
+I'm an MSc Computer Science student at **University College Dublin**, focused on backend engineering, distributed systems, and financial technology.
 
-From **2021 to 2023**, I worked in a two-person engineering team at a credit rating company in Shanghai, where I helped build and maintain backend systems supporting **150+ structured finance analysts**.
+Before transitioning into software engineering, I worked as an **ABS Credit Rating Analyst** at a credit rating company in Shanghai, where I developed a strong interest in the systems and data infrastructure behind financial workflows.
 
-My work included backend workflow development, data migration, approval processes, state transitions, financial data validation, third-party API integration, and production support using **Java, Spring Boot, and MySQL**.
+Alongside my structured finance responsibilities, I worked closely with the technology team on the rollout of an internal shadow-rating platform supporting **150+ analysts**, contributing to workflow requirements, historical data migration and validation, UAT, and production adoption.
 
-I'm currently completing an MSc in Computer Science at **University College Dublin**, while building projects around distributed systems, financial data, and backend infrastructure.
+Today, I build backend and data-intensive systems using **Java, Spring Boot, Python, SQL, RabbitMQ, Redis, Docker, and AWS**, with a particular interest in financial data platforms and distributed systems.
 
 ---
 
 ## Professional Experience
 
-### Software Engineer · Backend / Data Platform
+### ABS Credit Rating Analyst
 **Credit Rating Company · Shanghai, China**  
 `Jun 2021 – Aug 2023`
 
-Worked in a two-person engineering team under code review, developing and supporting internal platforms used by structured finance analysts.
+Worked in structured finance with a strong focus on data, internal systems, and technology-enabled rating workflows.
 
 **Shadow Rating Platform**
 
-- Built backend workflows for project creation, asset entry, multi-stage approval, rating assignment, tranche testing, versioning, and final project lock.
-- Supported **150+ analysts**, with approximately **80–90 structured finance projects per year** and around **30 assets per project**.
-- Migrated approximately **2,000 historical rating records** from a legacy platform, including field mapping, deduplication, cleansing, validation, and incremental migration before production cutover.
-- Integrated external company-information APIs and internal financial/rating APIs for company data, risk metrics, stress-testing results, and structured finance workflows.
-- Implemented financial statement input, draft saving, balance validation, Excel import/export, audit logs, and regulatory traceability.
-- Helped migrate workflow logic from Java enum + conditional transitions into a lightweight state-machine design with centralized transition rules, authorization checks, and operation history.
-- Supported UAT, data correction, production troubleshooting, user permissions, and internal business requests.
+- Collaborated with the technology team on the rollout of an internal shadow-rating platform supporting **150+ structured finance analysts**.
+- Helped translate structured-finance processes into system workflows covering project setup, asset data entry, shadow-rating requests, multi-stage review, tranche testing, version management, and final project approval.
+- Supported the migration and reconciliation of approximately **2,000 historical rating records**, including company identity matching, duplicate identification, inconsistent rating records, missing identifiers, and legacy project mappings.
+- Worked with company registration data and internal rating data to validate company identities, financial information, rating histories, and downstream workflow results.
+- Participated in UAT and production rollout by validating business rules, testing workflow transitions, reconciling migrated data, identifying defects, and coordinating fixes with the technology team.
+- Supported data and operational requirements around financial statement input, Excel-based workflows, historical records, approval traceability, and regulatory review.
+- Provided ongoing production support for data corrections, workflow issues, user access, and business requests after rollout.
 
-`Java` `Spring Boot` `MySQL` `REST APIs` `Excel / Apache POI` `RBAC` `Workflow Systems`
+`Structured Finance` `Data Validation` `Data Migration` `SQL` `Excel` `UAT` `Workflow Systems` `Financial Data`
 
 ---
 
@@ -50,15 +50,24 @@ Worked in a two-person engineering team under code review, developing and suppor
 
 ### FinIntel
 
-Financial intelligence platform that transforms SEC filings and structured financial data into analytics and evidence-grounded risk intelligence.
+A financial intelligence platform that transforms SEC filings and structured financial data into analytics and evidence-grounded risk intelligence.
 
-`Spring Boot` `FastAPI` `RabbitMQ` `Redis` `MySQL` `Docker` `AWS` `RAG`
+- Built Spring Boot services for SEC data ingestion, normalization, persistence, and downstream financial analytics.
+- Designed asynchronous processing with RabbitMQ and Redis-backed caching.
+- Integrated an AI analysis service for evidence-grounded financial risk analysis.
+- Containerized and deployed the platform using Docker and AWS.
+
+`Java` `Spring Boot` `FastAPI` `RabbitMQ` `Redis` `MySQL` `Docker` `AWS` `RAG`
 
 ---
 
-### Distributed Systems Benchmark
+### Distributed Systems Engineering
 
-Implemented and benchmarked communication between containerized services using TCP sockets, REST/HTTP, and gRPC/Protobuf, with replication and consistency experiments using MongoDB.
+Hands-on implementations and experiments covering communication, replication, consistency, and fault tolerance in distributed systems.
+
+- Implemented and benchmarked TCP sockets, REST/HTTP, and gRPC/Protobuf between containerized services.
+- Built MongoDB replication experiments covering primary/secondary behavior, write concerns, read consistency, and failover.
+- Documented architecture, methodology, results, and engineering trade-offs for each experiment.
 
 `Python` `gRPC` `Protobuf` `Docker` `MongoDB`
 
@@ -66,25 +75,30 @@ Implemented and benchmarked communication between containerized services using T
 
 ### Food Ordering Platform
 
-Event-driven backend system built around independently deployable services for users, restaurants, orders, payments, and shopping carts.
+An event-driven backend system for users, restaurants, orders, payments, and shopping carts.
 
-`Spring Boot` `RabbitMQ` `Redis` `PostgreSQL` `Docker`
+- Built independently structured backend services using Spring Boot.
+- Implemented asynchronous order/payment workflows using RabbitMQ.
+- Used Redis for shopping-cart storage, TTL-based expiration, and coordination.
+- Designed order state transitions and event-driven payment handling.
+
+`Java` `Spring Boot` `RabbitMQ` `Redis` `PostgreSQL` `Docker`
 
 ---
 
 ## Engineering Focus
 
 **Backend Engineering**  
-Java · Spring Boot · Python · FastAPI
+Java · Spring Boot · Python · FastAPI · REST APIs
 
 **Distributed Systems**  
-RabbitMQ · Redis · gRPC · asynchronous workflows
+RabbitMQ · Redis · gRPC · asynchronous workflows · replication
 
 **Data**  
-MySQL · PostgreSQL · MongoDB · financial data processing
+MySQL · PostgreSQL · MongoDB · SQL · financial data processing
 
-**Infrastructure**  
-Docker · AWS · Git · CI/CD
+**Infrastructure & Testing**  
+Docker · AWS · Git · CI/CD · JUnit · Mockito · MockMvc
 
 ---
 
@@ -100,4 +114,4 @@ Docker · AWS · Git · CI/CD
 
 ## Contact
 
-LinkedIn · Email · Portfolio
+LinkedIn · Email
