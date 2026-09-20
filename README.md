@@ -1,123 +1,103 @@
 <div align="center">
 
-# Hi, I'm Kexun Liu
+# Kexun Liu
 
-### Software Engineer · Backend · Distributed Systems
+### Backend Software Engineer · Distributed Systems · Financial Technology
 
-Building reliable backend systems, distributed applications, and data-driven products.
+MSc Computer Science @ University College Dublin
 
-📍 Dublin, Ireland
-
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+Dublin, Ireland
 
 </div>
 
 ---
 
-### About Me
+## About
 
-I'm a Computer Science graduate from **University College Dublin**, with a focus on backend engineering and distributed systems.
+I'm a backend-focused software engineer with experience building internal financial platforms and data-intensive applications.
 
-I enjoy building systems that go beyond basic CRUD — working with asynchronous messaging, caching, databases, APIs, distributed communication, and cloud deployment.
+From **2021 to 2023**, I worked in a two-person engineering team at a credit rating company in Shanghai, where I helped build and maintain backend systems supporting **150+ structured finance analysts**.
 
-Currently building **FinIntel**, a financial intelligence platform that transforms SEC filings and financial data into structured analytics and evidence-grounded risk intelligence.
+My work included backend workflow development, data migration, approval processes, state transitions, financial data validation, third-party API integration, and production support using **Java, Spring Boot, and MySQL**.
 
----
-
-### Tech Stack
-
-**Backend**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-**Data & Messaging**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-
-**Infrastructure & Tools**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+I'm currently completing an MSc in Computer Science at **University College Dublin**, while building projects around distributed systems, financial data, and backend infrastructure.
 
 ---
 
-### Featured Projects
+## Professional Experience
 
-<table>
-<tr>
-<td width="50%">
+### Software Engineer · Backend / Data Platform
+**Credit Rating Company · Shanghai, China**  
+`Jun 2021 – Aug 2023`
 
-#### FinIntel
+Worked in a two-person engineering team under code review, developing and supporting internal platforms used by structured finance analysts.
 
-Financial intelligence platform for transforming SEC filings into structured financial data, analytics, and AI-assisted risk intelligence.
+**Shadow Rating Platform**
 
-`Spring Boot` `FastAPI` `RabbitMQ` `Redis` `MySQL` `Docker` `AWS`
+- Built backend workflows for project creation, asset entry, multi-stage approval, rating assignment, tranche testing, versioning, and final project lock.
+- Supported **150+ analysts**, with approximately **80–90 structured finance projects per year** and around **30 assets per project**.
+- Migrated approximately **2,000 historical rating records** from a legacy platform, including field mapping, deduplication, cleansing, validation, and incremental migration before production cutover.
+- Integrated external company-information APIs and internal financial/rating APIs for company data, risk metrics, stress-testing results, and structured finance workflows.
+- Implemented financial statement input, draft saving, balance validation, Excel import/export, audit logs, and regulatory traceability.
+- Helped migrate workflow logic from Java enum + conditional transitions into a lightweight state-machine design with centralized transition rules, authorization checks, and operation history.
+- Supported UAT, data correction, production troubleshooting, user permissions, and internal business requests.
 
-</td>
+`Java` `Spring Boot` `MySQL` `REST APIs` `Excel / Apache POI` `RBAC` `Workflow Systems`
 
-<td width="50%">
+---
 
-#### Distributed Systems Benchmark
+## Current Projects
 
-Benchmarking TCP sockets, REST/HTTP, and gRPC communication between containerized microservices.
+### FinIntel
+
+Financial intelligence platform that transforms SEC filings and structured financial data into analytics and evidence-grounded risk intelligence.
+
+`Spring Boot` `FastAPI` `RabbitMQ` `Redis` `MySQL` `Docker` `AWS` `RAG`
+
+---
+
+### Distributed Systems Benchmark
+
+Implemented and benchmarked communication between containerized services using TCP sockets, REST/HTTP, and gRPC/Protobuf, with replication and consistency experiments using MongoDB.
 
 `Python` `gRPC` `Protobuf` `Docker` `MongoDB`
 
-</td>
-</tr>
+---
 
-<tr>
-<td width="50%">
+### Food Ordering Platform
 
-#### Food Ordering Platform
-
-Event-driven food ordering backend built around independently deployable microservices.
+Event-driven backend system built around independently deployable services for users, restaurants, orders, payments, and shopping carts.
 
 `Spring Boot` `RabbitMQ` `Redis` `PostgreSQL` `Docker`
 
-</td>
+---
 
-<td width="50%">
+## Engineering Focus
 
-#### More coming...
+**Backend Engineering**  
+Java · Spring Boot · Python · FastAPI
 
-Currently working on backend, distributed systems, and financial technology projects.
+**Distributed Systems**  
+RabbitMQ · Redis · gRPC · asynchronous workflows
 
-</td>
-</tr>
-</table>
+**Data**  
+MySQL · PostgreSQL · MongoDB · financial data processing
+
+**Infrastructure**  
+Docker · AWS · Git · CI/CD
 
 ---
 
-### GitHub Activity
+## Currently Exploring
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=PeterLiuSHS&show_icons=true&hide_border=true&theme=transparent)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PeterLiuSHS&layout=compact&hide_border=true&theme=transparent)
-
-</div>
+- Distributed systems and messaging patterns
+- Financial data platforms
+- Backend reliability and testing
+- Evidence-grounded AI applications
+- Cloud deployment and production engineering
 
 ---
 
-<div align="center">
+## Contact
 
-### Let's Connect
-
-I'm always interested in software engineering, backend systems, and interesting technical problems.
-
-**Dublin, Ireland**
-
-</div>
+LinkedIn · Email · Portfolio
