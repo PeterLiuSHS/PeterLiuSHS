@@ -98,4 +98,4 @@ RAG · Embeddings · Vector Search · Evidence Verification
 
 ## Contact
 
-LinkedIn · GitHub · Email
+LinkedIn(https://www.linkedin.com/in/kexunliu/) · GitHub(https://github.com/PeterLiuSHS) · Email(mailto:pliubelfast@gmail.com)
